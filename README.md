@@ -33,7 +33,7 @@ Download or clone the project to your system
 3.run the test cases one by one
 
 2ND WAY:
-Copy the code and paste it in any online java compiler ,run the test cases one by one.
+Copy the main.java code and paste it in any online java compiler ,run the test cases one by one.
 
 
 
