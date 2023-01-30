@@ -35,5 +35,7 @@ Download or clone the project to your system
 2ND WAY:
 Copy the main.java code and paste it in any online java compiler ,run the test cases one by one.
 
-
+NOTE:There are two codes 
+1.Main.java-which doesnt use backtrack
+2.backtrack.java-uses backtrack
 
