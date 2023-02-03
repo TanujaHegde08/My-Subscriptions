@@ -18,7 +18,6 @@ public class Main {
             for(int i=start; i<npCost.length; i++) {
                 tempList.add(npCost[i]);
                 backtrack(res, tempList, npCost, remain-npCost[i], i+1);
-                tempList.remove(tempList.size()-1);
             }
         }
     }
@@ -34,18 +33,6 @@ public class Main {
 
         double budget = 40;
         List<List<Double>> result = solution(npCost, budget);
-
-        //mapping the sum to the corrosponding npName;
-        List<List <String>> strResult = new ArrayList<>();
-        for(int i=0; i<result.size(); i++) {
-            List< String> combination = new ArrayList<>();
-            List<Double> curr = result.get(i);
-
-            for(int j=0; j<curr.size(); j++)
-                combination.add(myMap.get(curr.get(j)));
-
-            strResult.add(combination);
-        }
 
         for(int i=0; i< strResult.size(); i++)
             System.out.println(strResult.get(i));
